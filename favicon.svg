@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Farhan Fairuz Zamiir">
+  <defs>
+    <linearGradient id="favGradient" x1="8" y1="8" x2="56" y2="56" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#60a5fa"/>
+      <stop offset="1" stop-color="#38bdf8"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#040712"/>
+  <rect x="2" y="2" width="60" height="60" rx="12" fill="none" stroke="url(#favGradient)" stroke-width="2"/>
+  <text x="32" y="43" text-anchor="middle" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="27" font-weight="800" fill="url(#favGradient)">FF</text>
+</svg>
