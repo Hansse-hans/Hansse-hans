@@ -2,6 +2,8 @@
 
 Website portofolio satu halaman (single-page) untuk **Farhan Fairuz Zamiir**, pelajar Desain Komunikasi Visual (DKV) di SMKN 10 Surabaya. Dibangun murni dengan **HTML, CSS, dan JavaScript** tanpa framework, tanpa build tools, dan tanpa dependency eksternal selain Google Fonts serta embed Spotify.
 
+**Live:** <https://hansse-hans.github.io/Hansse-hans/>
+
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
@@ -265,7 +267,15 @@ Tambahkan cabang baru jika ingin perintah kustom.
 
 ## Deployment
 
-Website ini statis dan sudah disiapkan untuk GitHub Pages: entry point `index.html`, favicon, meta pratinjau sosial, dan `.nojekyll` sudah tersedia.
+Website statis dan sudah tayang di GitHub Pages:
+
+```text
+https://hansse-hans.github.io/Hansse-hans/
+```
+
+Repository: <https://github.com/Hansse-hans/Hansse-hans> (branch `Hansse-hans`).
+
+Entry point `index.html`, favicon, meta pratinjau sosial (sudah memakai URL absolut), dan `.nojekyll` sudah tersedia. Langkah di bawah bisa dipakai sebagai referensi jika ingin mengunggah ulang atau memindahkan situs.
 
 ### A. Upload lewat web GitHub (tanpa Git)
 
@@ -274,7 +284,7 @@ Website ini statis dan sudah disiapkan untuk GitHub Pages: entry point `index.ht
 3. Seret **seluruh isi folder** `portofolio` (bukan foldernya) ke area upload, lalu **Commit changes**.
 4. Masuk **Settings → Pages**.
 5. Pada **Build and deployment**, pilih **Source: Deploy from a branch**.
-6. Pilih branch **main** dan folder **/ (root)**, lalu **Save**.
+6. Pilih branch yang dipakai repo (untuk repo ini: **`Hansse-hans`**) dan folder **/ (root)**, lalu **Save**.
 7. Tunggu 1–2 menit. Situs tersedia di:
 
 ```text
@@ -303,8 +313,8 @@ Setelah push, aktifkan GitHub Pages seperti langkah A nomor 4–7.
 
 ### D. Setelah situs tayang
 
-1. Buka URL GitHub Pages dan pastikan foto, video, sertifikat, serta QR tampil.
-2. Ganti `og:image` dan `twitter:image` di `<head>` dengan URL absolut `og-image.jpg` agar preview WhatsApp/media sosial bekerja.
+1. Buka <https://hansse-hans.github.io/Hansse-hans/> dan pastikan foto, video, sertifikat, serta QR tampil.
+2. `og:image`, `og:url`, dan `twitter:image` sudah memakai URL absolut `og-image.jpg`.
 3. Cek tampilan di ponsel dan desktop.
 4. (Opsional) Pasang custom domain melalui **Settings → Pages → Custom domain**.
 
@@ -316,8 +326,8 @@ Setelah push, aktifkan GitHub Pages seperti langkah A nomor 4–7.
 - [x] Meta description, Open Graph, Twitter Card, dan JSON-LD
 - [x] `.gitignore`
 - [x] Semua aset memakai path relatif dan namanya cocok
-- [ ] `og:image` diganti ke URL absolut setelah URL situs diketahui
-- [ ] Seluruh aset berhasil ter-upload
+- [x] `og:image` dan `twitter:image` memakai URL absolut
+- [x] Situs tayang di GitHub Pages dan seluruh aset merespons 200 OK
 
 > GitHub Pages gratis untuk repository **publik**. Jika repository privat, GitHub Pages memerlukan paket berbayar. Ingat juga bahwa seluruh isi repo publik (termasuk foto, sertifikat, nomor WhatsApp, dan email) dapat diakses siapa saja.
 
